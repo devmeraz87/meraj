@@ -128,7 +128,7 @@ const Post = () => {
                                                     <div className="_f">
                                                         <div className="_g">
                                                             <div className="_h">
-                                                                <a id={`${post.id}`} href={`/tanjila/posts/#${post.id}`}>
+                                                                <a id={`${post.id}`} href={`/meraj/posts/#${post.id}`}>
                                                                     <img src={post.postImageUrl} alt={post.firstName} onClick={(e) => showPostModal(e)} />
                                                                 </a>
                                                             </div>

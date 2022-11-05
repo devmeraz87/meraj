@@ -29,7 +29,7 @@ const App = () => {
             <Route path={"/work"} exact>
               <Work /> 
             </Route>
-            <Route path={"/tanjila/posts"} exact>
+            <Route path={"/meraj/posts"} exact>
               <Blog /> 
             </Route>
             <Route path={"/create-new-post"}>
