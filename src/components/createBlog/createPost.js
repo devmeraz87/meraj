@@ -121,7 +121,7 @@ const CreatePost = () => {
                             })
                             .then(() => {
                                 toast("Sucessfully posted", {type: "success"})
-                                history.push("/tanjila/posts")
+                                history.push("/meraj/posts")
                             })
                             .catch(err => {
                                 toast(err.message, {type: "error"})
