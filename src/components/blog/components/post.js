@@ -65,7 +65,7 @@ const Post = () => {
         <>
             {
                 posts.length  === 0 ? (
-                    <p className="noPost">No Post found ! 😒</p>
+                    <p className="noPost">Loading... 😒</p>
                 ) : (
                     <div className="postContainer" onLoad={visited}>
                         {modalPost && (
